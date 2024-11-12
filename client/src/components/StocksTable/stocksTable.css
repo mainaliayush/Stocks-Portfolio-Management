@@ -1,0 +1,114 @@
+.table-container{
+    height: 95vh;
+    overflow: auto; 
+}
+
+.table-top-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 0px; 
+    margin: 1.5%;
+}
+
+.buttons-div-one{
+    border: none;
+}
+
+.buttons-div-two{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.input-group input {
+    width: 90%;
+}
+
+.add-trade {
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.export-csv, .export-excel, .add-filter{
+    margin: 4px;
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-size: 10px;
+    cursor: pointer;
+    box-shadow: 1px;
+}
+
+.stocks-searchbar{
+    margin: 4px;
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-size: 10px;
+    cursor: pointer;
+    border: 1px solid rgb(185, 184, 184);
+    box-shadow: 1px;
+}
+
+.TableContainer {
+  margin: 20px;
+}
+
+.bordered-table {
+  border-collapse: collapse;
+  max-width: 99%;
+}
+
+.bordered-table th, .bordered-table td {
+  border: 1px solid #dfdfdf;
+  text-align: left;
+}
+
+.bordered-table th {
+  background-color: #f2f2f2;
+  font-size: 16px;
+}
+
+.bordered-table td {
+    font-size: 16px;
+}
+
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+    max-width:96.6%;
+}
+
+.pagination-controls {
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    padding-right: 18px;
+    border-radius: 5px;
+}
+
+.pagination-button {
+    border: 1px solid rgb(182, 182, 182);
+    padding: 5px 10px;
+    margin: 0 5px;
+    color: rgb(99, 99, 99);
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.pagination-button:hover {
+    background-color: rgb(163, 163, 163); 
+}
+
+.pagination-button:disabled {
+    background-color: rgb(221, 219, 219); 
+    cursor: not-allowed;
+}
+
+.pagination-controls span {
+    margin: 0 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(99, 99, 99);
+}
+
+    

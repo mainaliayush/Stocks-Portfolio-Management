@@ -1,0 +1,25 @@
+.home-container {
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+}
+
+.sidebar-container{
+  display: block;
+  min-width: 220px; 
+}
+
+.render-container {
+  width: calc(100% - 220px);
+}
+
+/* Media query to hide the sidebar for screens below 768px */
+@media screen and (max-width: 768px) {
+  .sidebar-container {
+    display: none; 
+  }
+
+  .render-container {
+    flex: 1;
+  }
+}

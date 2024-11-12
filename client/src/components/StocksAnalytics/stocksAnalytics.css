@@ -1,0 +1,23 @@
+.stocks-analytics-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chart {
+    width: 580px; 
+    height: 300px; 
+    border-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+    margin: 10px; 
+    padding: 5px;
+}
+
+.category-chart{
+    margin-top: 0px; 
+    padding:20px 0px 20px 80px; 
+    width: 580px; 
+    height: 300px;  
+    border-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+    margin: 10px; 
+}

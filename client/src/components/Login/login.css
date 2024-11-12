@@ -1,0 +1,104 @@
+  .login-container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .login-image {
+    flex: 2;
+    display: flex;
+    background-color: rgb(149, 149, 149); 
+  }
+  
+  .login-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    background-color: #d6d6d6; 
+    padding: 0px 50px;
+  }
+  
+  .login-image img {
+    width: 100%;
+    height: auto;
+    opacity: 0; 
+    animation: fadeIn 3s ease forwards; 
+  }
+  
+  .login-header {
+    font-size: 35px;
+    font-weight: bold;
+    color: #333; 
+    text-transform: uppercase;
+    padding: 10px 0px;
+  }
+  
+  .login-body {
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .input-group input {
+    display: block;
+    padding: 10px;
+    margin: 0px; 
+    height: 40px;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .input-field {
+    width: calc(100% - 20px); 
+    padding: 5px 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .error-div{
+    width: calc(100% - 50px); 
+  }
+  
+  .login-button {
+    width: calc(100% - 50px); 
+    padding: 10px;
+    background-color: rgb(79, 79, 79); /* Dark grey background for button */
+    border: none;
+    border-radius: 5px;
+    color: #fff; /* White text color */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: rgb(55, 55, 55); /* Lighter grey on hover */
+  }
+  
+  .forgot-password,
+  .sign-up {
+    text-align: left; /* Align left */
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .forgot-password a,
+  .sign-up a {
+    color: #777777;
+    text-decoration: none;
+  }
+  
+  .forgot-password a:hover,
+  .sign-up a:hover {
+    text-decoration: underline;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1; /* Fade in to full opacity */
+    }
+  }
+  

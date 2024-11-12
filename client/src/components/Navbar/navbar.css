@@ -1,0 +1,30 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    background-color:#f4f4f4 ;
+    border: 1px solid rgb(204, 204, 204);
+    /* top:0;
+    position: sticky;
+    z-index: 1000; */
+}
+
+.navbar-h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+.navbar-profile {
+    font-size: 1.5rem;
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+
+.logout-icon:hover {
+    cursor: pointer;
+    /* background-color: rgb(159, 157, 157); */
+    color: rgb(78, 77, 77);
+}

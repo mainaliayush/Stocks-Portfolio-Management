@@ -1,0 +1,46 @@
+.stocksportfolio-container {
+    height: 95vh;
+}
+  
+.visualizations {
+    flex: 1;
+    height: calc(95vh - 50%); 
+    background-color: #ffffff; 
+    padding: 5px; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap:5px;
+}
+
+.portfolio-info,
+.chart-1,
+.chart-2{
+    margin: 5px; 
+    border-radius: 5px; 
+    border: 1px solid rgb(210, 210, 210); 
+}
+  
+.table {
+    flex: 2;
+    overflow-y: auto; 
+    padding: 1rem;
+    border: 1px solid #ddd; 
+    overflow-x: hidden; 
+}
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+table th,
+table td {
+    padding: 0.5rem;
+    text-align: left;
+    border: 1px solid #ddd; 
+}
+  
+table th {
+    background-color: #f2f2f2; 
+}
+  

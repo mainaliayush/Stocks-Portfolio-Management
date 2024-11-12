@@ -1,0 +1,62 @@
+.top-container, .middle-container, .bottom-container {
+    display: flex;
+    justify-content: center;
+    margin: 5px 5px;
+  }
+
+.call-put-doughnut,
+.profit-loss-doughnut {
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 5px;
+    padding:0px 0px 50px 0px; 
+    flex: 1; 
+    margin: 5px; 
+    height: 350px;
+    width: 100px;
+}
+
+.category-chart{
+    margin-top: 0px; 
+    padding:20px 0px 20px 80px; 
+    width: 580px; 
+    height: 200px;  
+    border-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+    margin: 15px; 
+}
+
+.portfolio-linegraph{
+    border: 1px solid rgb(224, 224, 224); 
+    border-radius: 5px;
+    padding:0px 0px 50px 0px; 
+    flex: 2;
+    margin: 5px; 
+    height: 350px;
+    width: 125px;
+    /* padding: 5px 15px; */
+}
+
+
+.category-bubble,
+.profit-loss-category{
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 5px;
+    flex: 1; 
+    margin: 0px 5px; 
+}
+
+.category-chart{
+    margin-top: 0px; 
+    padding:20px 0px 20px 80px; 
+    width: 580px; 
+    height: 350px;  
+    border-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+    margin: 10px; 
+}
+
+.chart-header{
+    background-color: #f0f0f0;
+    padding:2px 0px 2px 10px;
+    margin-bottom: 15px;
+}
