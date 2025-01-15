@@ -3,14 +3,12 @@ This is my passion project, designed to help me track and optimize my hard-earne
 
 The human mind, despite its brilliance, often struggles to recognize recurring patterns in data. 
 This app aims to bridge that gap by offering a solution to systematically store and analyze trading data. 
-By tracking stock and options trades over specific time periods, this app enables me to:
+By tracking stock and options trades over specific time periods, this app enabled me to:
 
-  - Identify what's working and what's not.
-  - Journal trades effectively.
+  - Journal trades effectively to identify what's working and what's not.
   - Focus on high-probability trades while discarding the rest.
+  - Go full throttle on whatever works, but by strictly managing risk.
   - Monitor and maintain a comprehensive stock portfolio.
-  - Whether you're a seasoned investor or a budding trader, this app provides a structured approach to refining your trading strategy.
-
 
 🚀 Features
   - Trade Journaling: Record and review trades with ease.
